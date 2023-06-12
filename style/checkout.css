@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
 
 .dropdown:hover>.dropdown-menu{
     display: block;
@@ -54,6 +54,7 @@
       background-color:white;
    }
   .btn{
+    font-size: medium;
    font-family:'EB Garamond', serif;
       background-color:black !important;
       color:#68d4eb;
@@ -74,6 +75,6 @@
    margin-top: 90px;
 }
 body{
-   font-size: medium;
-   font-family:'EB Garamond', serif;
+    font-family:'EB Garamond', serif;
+    font-size: medium;
 }
