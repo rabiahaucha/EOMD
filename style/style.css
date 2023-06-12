@@ -1,0 +1,70 @@
+.dropdown:hover>.dropdown-menu{
+    display: block;
+     }
+     nav{
+        background-color:white ;
+        margin-bottom: 2rem;
+     }
+     #logo{
+        height: 8rem ;
+        width: 15rem;
+     }
+   .cardImg {
+    height: 190px;
+    width: 17.7rem;
+    background-size: cover;
+    background-color:white;
+    /* border-color: rgb(17, 17, 17); */
+   }
+   h1{
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   #see{
+    background-color: rgb(126, 38, 148);
+    border-radius: 20%;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    margin: 5rem;
+   }
+   #product {
+    display: flex;
+    justify-content: center;
+   }
+   .footer{
+      /* background-color:#f3e3db ;   */
+   }
+   #carous{
+      height: 50rem;
+   }
+   #logo{
+      height: 9rem ;
+      width: 15rem;
+   }
+   nav{
+      background-color:white;
+   }
+  .btn{
+      margin-left: 90%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background-color: rgb(128, 19, 128) !important;
+  };
+
+#logo{
+    height: 9rem ;
+    width: 15rem;
+ }
+ nav{
+    background-color:white ;
+ }
+
+.btn{
+   
+    margin-left: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(128, 19, 128) !important;
+
+};
