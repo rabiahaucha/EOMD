@@ -91,7 +91,7 @@ function loadData() {
           <td><img src="${item.image}"></img></td>
           <td>${item.amount}</td>
           <td><button class="btn btn-primary" onclick="editItem(${item.id})" data-bs-toggle="modal" data-bs-target="#edit-${item.id}">Edit</button></td>
-          <td><button class="btn btn-primary" id="delete" onclick="deleteItem()">Delete</i></td>
+          <td><button class="btn btn-primary" id="delete" onclick="deletePlants()">Delete</i></td>
       </tr>
 
       <div class="modal fade" id="edit-${item.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -179,3 +179,10 @@ function darkMode() {
   }
   console.log(document.body.style.backgroundColor);   // ctrl + j and you can see which mode you're in
 }
+
+
+
+
+
+
+
