@@ -1,79 +1,48 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
-
-.dropdown:hover>.dropdown-menu{
-    display: block;
-     }
-     nav{
-      font-size: medium;
-      font-family:'EB Garamond', serif;
-        background-color:white ;
-        margin-bottom: 2rem;
-     }
-     #logo{
-        height: 8rem ;
-        width: 15rem;
-     }
-   .cardImg {
-    height: 190px;
-    width: 17.7rem;
-    background-size: cover;
-    background-color:white;
-    /* border-color: rgb(17, 17, 17); */
-   }
-
-   h1{
-   text-align: center;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
-   #see{
-    background-color: rgb(126, 38, 148);
-    border-radius: 20%;
-    color: white;
-    width: 10rem;
-    height: 3rem;
-    margin: 5rem;
-   }
-   #product {
-    display: flex;
-    justify-content: center;
-   }
-   /* .footer{
-      background-color:#f3e3db ;  
-   } */
-   #carous{
-      height: 50rem;
-   }
-   #logo{
-      font-size: medium;
-      font-family:'EB Garamond', serif;
-      height: 9rem ;
-      width: 15rem;
-   }
-   nav{
-      background-color:white;
-   }
-  .btn{
-   font-family:'EB Garamond', serif;
-      background-color:black !important;
-      color:#68d4eb;
-  };
-
-#logo{
-    height: 9rem ;
-    width: 15rem;
- }
- nav{
-    background-color:white ;
- }
-  .dark-mode {
-   background-color:black;
-   color: white;
-  }
-.container2{
-   margin-top: 90px;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+.dropdown:hover > .dropdown-menu {
+  display: block;
 }
-body{
-   font-size: medium;
-   font-family:'EB Garamond', serif;
+nav {
+  font-size: medium;
+  font-family: "Merriweather", serif;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  font-family: "Merriweather", serif;
+  background-color: black !important;
+  color: #68d4eb;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.container2 {
+  margin-top: 90px;
+}
+body {
+  font-size: medium;
+  font-family: "Merriweather", serif;
+}
+
+
+#navbarSupportedContent{
+   margin-left: 3rem !important;
+}
+.person{
+  margin-left: 20rem;
+}
+p{
+  font-family: "Merriweather", serif;
+}
+.come{
+   text-align: center;
+}
+h3{
+   color: black;
+   font-family: "Merriweather", serif;
+}
+.text{
 }
