@@ -1,79 +1,88 @@
-
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 .dropdown:hover>.dropdown-menu{
     display: block;
      }
      nav{
       font-size: medium;
-      font-family:'EB Garamond', serif;
+      font-family: 'Merriweather', serif;
         background-color:white ;
         margin-bottom: 2rem;
      }
-     #logo{
-        height: 8rem ;
-        width: 15rem;
-     }
-   .cardImg {
-    height: 190px;
-    width: 17.7rem;
-    background-size: cover;
-    background-color:white;
-    /* border-color: rgb(17, 17, 17); */
-   }
 
-   h1{
-   text-align: center;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
-   #see{
-    background-color: rgb(126, 38, 148);
-    border-radius: 20%;
-    color: white;
-    width: 10rem;
-    height: 3rem;
-    margin: 5rem;
-   }
-   #product {
-    display: flex;
-    justify-content: center;
-   }
-   /* .footer{
-      background-color:#f3e3db ;  
-   } */
-   #carous{
-      height: 50rem;
-   }
-   #logo{
-      font-size: medium;
-      font-family:'EB Garamond', serif;
-      height: 9rem ;
-      width: 15rem;
-   }
    nav{
       background-color:white;
    }
   .btn{
-   font-family:'EB Garamond', serif;
+   font-family: 'Merriweather', serif;
       background-color:black !important;
       color:#68d4eb;
   };
 
-#logo{
-    height: 9rem ;
-    width: 15rem;
- }
- nav{
-    background-color:white ;
- }
   .dark-mode {
    background-color:black;
    color: white;
-  }
-.container2{
-   margin-top: 90px;
+
 }
 body{
    font-size: medium;
-   font-family:'EB Garamond', serif;
+   font-family: 'Merriweather', serif;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+input[type=text],select,textarea {
+    
+    width: 100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border: radius 4px;
+    box-sizing:border-box;
+    margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+}
+
+input[type=submit]{
+
+    background-color:white;
+    color:black;
+    padding:12px 20px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    text-align:center;
+    
+}
+input[type=submit]:hover{
+    background-color:#d051c1;
+    
+}
+
+.container{
+    border-radius:5px;
+    background:white;
+    padding:5px;
+    margin-top: 20px;
+    text-align:center;
+}
+p{
+    text-align: center;
+}
+.pro{
+  text-align: center;
+  color:black;
+ }
+
+ .target::placeholder{
+  color: black;
+ }
+ #subject{
+  background-color: white;
+ }
+ .navbar-brand{
+  text-decoration: none;
+}
+.container5{
+   color: black;
+font-family: "Merriweather", serif;
 }
