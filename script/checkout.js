@@ -6,6 +6,7 @@ let products = [
       title: "21 best retinol serums and creams, as recommended by dermatologists",
       cost: "Finding out which one of the best retinol serums is right for you isn't exactly the easiest thing in the world, even if you consider yourself a skincare guru. And although trial-and-error can certainly help you decide what skincare product works for your skin, this can be troublesome when you consider the fact that retinol serums aren't exactly the most affordable of products to begin with. Plus, once you finally do get your hands on one that suits you, you'll need to be extra careful with how you use it so as not to damage your skin's surface.",
     },
+    
     {
       id: 2,
       picture: "https://i.postimg.cc/SxqpCFqQ/Screenshot-2023-06-08-130143.png",
@@ -50,11 +51,3 @@ let products = [
        </div>
        `;
   });
-  function darkMode() {
-    if (document.body.style.backgroundColor == "black") {
-        document.body.style.backgroundColor = "white";
-    } else {
-        document.body.style.backgroundColor = "black";
-    }
-    console.log(document.body.style.backgroundColor);   
-  }
